@@ -63,7 +63,7 @@ void foo()
     x.process_data(malicious_function);
     unprotected->do_someting();
 }
-
+//================================================================
 //=================================================================
 
 template<typename T, typename Container=std::deque<T> >
